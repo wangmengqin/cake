@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车界面</title>
+		<link rel="stylesheet" href="css/headandfoot.css" />
+		<link rel="stylesheet" href="css/shopping.css" />
+	</head>
+	<body>
+		<div class="topbox">
+			<p>
+				<b>您好，欢迎光临美心西饼</b>
+				<span><a href="login.html" id="login">登录</a><a href="regist.html" id="regist">注册</a></span>
+				<b>微信商城<img src="images/index/jiantou_03.png"/></b>
+			</p>
+			<p>
+				<a href="#">订单查询</a>
+				<a href="#">客服中心</a>
+				<a href="#">分享到：</a>
+				<a href="#">切换繁体</a>
+			</p>
+		</div>
+	
+		<div class="header">
+			<img src="images/index/logo.png" />
+			<form>
+				<input type="text"  id="txt"/><button id="search">搜索</button>
+			</form>
+			<a href="shop.html"><span >购物车<em class="goodsnumber">0</em>件</span></a>
+		</div>
+	
+		<div class="nav-bg">
+			<ul class="nav">
+				<li><a href="index.html"><span>首页</span><b>mei-xin</b></a></li>
+				<li><a href="#"><span>蛋糕直送</span><b>EXPRESS</b></a></li>
+				<li><a href="list.html"><span>蛋糕店取</span><b>SELF PICKUP</b></a></li>
+				<li><a href="#"><span>零食礼盒</span><b>GIFT</b></a></li>
+				<li><a href="#"><span>美粉专场</span><b>MEMBERONLY</b></a></li>
+				<li><a href="#"><span>企业试吃</span><b>TASTING </b></a></li>
+			</ul>
+		</div>
+		
+		<div class="content-bg">
+			<div class="content">
+				<ul>
+					<li class="active">1、我的购物车</li>
+					<li>2、填写核对订单信息</li>
+					<li>3、成功提交订单</li>
+				</ul>
+			</div>
+		
+			<div class="cakeself">
+				<h4>蛋糕自提</h4>
+				<div class="title">
+					<p><input type="checkbox" id="allcheck"/>全选</p>
+					<span>商品</span>
+					<span>单价</span>
+					<span>数量</span>
+					<span>操作</span>
+				</div>
+				<div class="goods">
+					<!--<div class="good">
+						<input type="checkbox" />
+						<div class="goodsdetail">
+							<img src="images/detail/smallcake1-2.jpg"/><p><span>宇治抹茶·道</span><i><img src="images/shop/ziti_03.jpg"/>支持配送</i><em>重量：1磅/口味：抹茶蛋糕抹茶慕斯/</em></p>
+							<p class="price">￥168.00</p>
+							<p class="num"><b class="sub">-</b><input type="text" value="1" class="count"/><b class="add">+</b></p>
+							<p class="operate"><a href="##">删除</a><span>选择配件</span></p>
+						</div>
+					</div>-->
+				</div>
+				<div class="menu">
+					<p><a href="##" class="del-select">删除选中商品</a><span>已选中<i class="selectcount">0</i>件商品</span></p>
+					<p>
+						<span>合计（不含运费）：<b class="total-price">￥0.00</b></span><a href="##">去结算</a>
+					</p>
+				</div>
+			</div>
+			<div class="cakesend">
+				<h4>蛋糕配送</h4>
+				<div class="title">
+					<p><input type="checkbox" id="allcheck1"/>全选</p>
+					<span>商品</span>
+					<span>单价</span>
+					<span>数量</span>
+					<span>操作</span>
+				</div>
+				<div class="goods">
+					<!--<div class="good">
+						<input type="checkbox" />
+						<div class="goodsdetail">
+							<img src="images/detail/smallcake1-2.jpg"/><p><span>宇治抹茶·道</span><i><img src="images/shop/ziti_03.jpg"/>支持配送</i><em>重量：1磅/口味：抹茶蛋糕抹茶慕斯/</em></p>
+							<p class="price">￥168.00</p>
+							<p class="num"><b class="sub">-</b><input type="text" value="1"/><b class="add">+</b></p>
+							<p class="operate"><a href="##">删除</a><span>选择配件</span></p>
+						</div>
+					</div>-->
+				</div>
+				
+				<div class="menu">
+					<p><a href="##" class="del-select1">删除选中商品</a><span>已选中<i class="selectcount1">0</i>件商品</span></p>
+					<p>
+						<span>合计（不含运费）：<b class="total-price1">￥0.00</b></span><a href="##">去结算</a>
+					</p>
+				</div>
+			</div>
+			<div class="productsend">
+				<h4>产品配送</h4>
+				<ul
+				<div class="menu">
+					<p><a href="##">删除选中商品</a><span>已选中<i>0</i>件商品</span></p>
+					<p>
+						<span>合计（不含运费）：<b>￥0.00</b></span><a href="##">去结算</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-line">
+		</div>
+		<div class="footer-bg">
+			<div class="footer">
+				<ul>
+					<li>
+						<h4>购物</h4>
+						<p>七天无理由退货及消费者保护规则</p>
+						<p>订饼须知</p>
+						<p>分店地址</p>
+					</li>
+					<li>
+						<h4>服务</h4>
+						<p>2017美心月饼防伪说明</p>
+						<p>西饼券延期公告</p>
+						<p>关于我们</p>
+						<p>预付卡章程</p>
+					</li>
+					<li>
+						<h4>声明</h4>
+						<p>使用条款</p>
+						<p>隐私政策</p>
+					</li>
+					<li>
+						<h4>服务热线</h4>
+						<p>400-8822-280</p>
+					</li>
+				</ul>
+			
+				<div>
+					<p>关注公众号</p><img src="images/index/gzh.jpg" alt="" />
+				</div>
+				<div>
+					<p>手机商城</p><img src="images/index/shop.png" alt="" />
+				</div>
+			</div>
+		</div>
+	
+		<div class="copyright-bg">
+			<div class="copyright">
+				<p>
+					<img src="images/index/ga.png"/><a href="#">广州工商</a><span> |  粤ICP备16089580号  |  </span><a href="#">食品生产许可证 | </a><a href="#">营业执照</a>
+				</p>
+				<p><span>美心食品（广州）有限公司. 保留一切权利</span></p>
+				<p><img src="images/index/2.gif" alt="" /></p>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/pool.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/shop.js"></script>

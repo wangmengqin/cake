@@ -1,0 +1,188 @@
+
+
+
+.content-bg{
+	width: 100%;
+	background: url(../images/index/index-bg.jpg);
+	overflow: hidden;
+}
+#banner{
+	width: 995px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	height: 420px;
+	padding: 14px 0 25px 0;
+}
+#banner li{
+	width: 995px;
+	position: absolute;
+	opacity: 0;
+}
+#banner li:first-of-type{
+	opacity: 1;
+}
+#banner li img{
+	display: block;
+}
+
+.imgnav{
+	width: 1005px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 49px;
+}
+.imgnav img{
+	display: block;
+	float: left;
+	margin: 0 5px 7px 5px;
+	
+}
+
+.recommend{
+	width: 995px;
+	margin:  0  auto;
+	overflow: hidden;
+	background:rgba(255,255,255,.7);
+}
+.recommend img{display: block;}
+.product1{
+	width: 100%;
+
+	overflow: hidden;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 33px;
+}
+.product1 li{
+	float: left;
+	font-size: 16px;
+	color: #585858;
+	margin-right: 10px;
+	border-bottom: 1px dashed #575757;
+	margin-bottom: 24px;
+}
+.product1 li .price{
+	font-size: 12px;
+}
+
+.product1 li p  span{
+	font-weight: 800;
+}
+.product1 li div{
+	position: relative;
+	padding: 10px 0;
+}
+.product1 li a{
+	position: absolute;
+	right: 12px;
+    bottom: 10px;
+    background: url(../images/index/xxxb_47.png) no-repeat left center;
+    width: 114px;
+    height: 29px;
+}
+
+.product2{
+	width: 985px;
+
+	overflow: hidden;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 33px;
+}
+
+.product2 .product1{
+	width: 657px;
+	float: left;
+	padding-top: 0;
+}
+.product2 .new-product{
+	float: left;
+	font-size: 16px;
+	color: #585858;
+}
+.new-product div{
+	padding: 10px 0;
+}
+
+
+.cake{
+	float: left;
+	width: 640px;
+	overflow: hidden;
+	font-size: 16px;
+	color: #585858;
+	padding-left: 10px;
+}
+.cake li{
+	float: left;
+	margin-right: 10px;
+	border-bottom: 1px dashed #575757;
+	margin-bottom: 24px;
+	height: 373px;
+}
+.cake a{
+	position: absolute;
+	right: 12px;
+    bottom: 15px;
+    background: url(../images/index/xxxb_47.png) no-repeat left center;
+    width: 114px;
+    height: 29px;
+}
+.cake div{
+	padding: 10px 0;
+	position: relative;
+}
+.cake  span{
+	font-weight: 800;
+}
+
+
+.gift{
+
+	width: 100%;
+	overflow: hidden;
+	font-size: 15px;
+	color: #585858;
+	padding-left: 10px;
+
+	padding-top: 10px;
+}
+.gift li{
+	float: left;
+	margin-right: 10px;
+	border-bottom: 1px dashed #575757;
+	margin-bottom: 24px;
+}
+.gift li img{
+	border:1px solid rgba(255,255,255,.5);
+	border-right: 0;
+	box-sizing: border-box;
+	display: block;
+}
+.gift a{
+	position: absolute;
+	right: 12px;
+    bottom: 15px;
+    background: url(../images/index/xxxb_47.png) no-repeat left center;
+    width: 114px;
+    height: 29px;
+}
+.gift div{
+	padding: 10px 0;
+	position: relative;
+	width: 310px;
+}
+
+.gift li:nth-of-type(1) img{
+	width: 318px;
+	height: 320px;
+	
+}
+.recommend>p{
+	padding: 0 10px;
+	margin-top: 55px;
+	margin-bottom: 40px;
+	float: left;
+}
+

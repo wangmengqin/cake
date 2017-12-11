@@ -1,0 +1,170 @@
+.content-bg{
+	width:100%;
+	overflow: hidden;
+	background: url(../images/index/index-bg.jpg);
+}
+
+#list{
+	width: 800px;
+	overflow: hidden;
+	margin: 0 auto;
+	background: #fff;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	padding: 40px;
+	color: #A4A4A4;
+}
+#list li{
+	overflow: hidden;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	line-height: 42px;
+}
+#list p{
+	float: left;
+}
+#list label{
+	float: left;
+	width: 110px;
+	margin-right: 20px;
+	text-align: right;
+}
+#list input{
+	width: 280px;
+	height: 40px;
+	border: 0;
+	border:1px solid #DCDCDC;
+	outline: none;
+	padding-left: 10px;
+}
+#list li:nth-of-type(5) p{
+	padding-left: 54px;
+}
+#list li:nth-of-type(5) input{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.result1{
+	float: left;
+	color: #DCDCDC;
+	background: url(../images/regist/focus.jpg) no-repeat left center;
+	padding-left: 20px;
+	font-size: 12px;
+	display: none;
+}
+.result2{
+	float: left;
+	color: #FE5722;
+	background: url(../images/regist/zcselect.jpg) no-repeat left center;
+	padding-left: 20px;
+	font-size: 12px;
+	display: none;
+}
+.result3{
+	float: left;
+	color: #268BF3;
+	background: url(../images/regist/zhuce_1_03.jpg) no-repeat left center;
+	padding-left: 20px;
+	font-size: 12px;
+	display: none;
+}
+
+#list li:nth-of-type(3){
+	display: none;
+}
+
+#list li:nth-of-type(3) p{
+	width: 209px;
+	margin-right: 20px;
+	text-align: right;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #585858;
+	margin-right: 5px;
+}
+#list li:nth-of-type(3) span{
+	float: left;
+	background: #B9B9B9;
+	color: #fff;
+	width: 50px;
+	height: 25px;
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+	    margin-top: 7px;
+}
+#list li:nth-of-type(3) .active{
+	background: #DF5000;
+	
+}
+
+#list select{
+	width: 130px;
+	height: 40px;
+	border: 0;
+	border: 1px solid #DCDCDC;
+	padding-left: 10px;
+	margin-right: 10px;
+	color: #585858;
+}
+#list li:nth-of-type(9) {
+	padding-left: 120px;
+}
+#list li:nth-of-type(9) input{
+	width: 20px;
+	height: 20px;
+	background: none;
+	background: #fff;
+	float: left;
+	    margin-top: 10px;
+    margin-right: 5px;
+}
+#list li:nth-of-type(9) a{
+	color: #FE5722;
+	margin-left: 5px;
+}
+#list li:nth-of-type(9){
+	color: #626262;
+}
+
+#regist{
+	width: 300px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	border: 0;
+	background: #FE5722;
+	margin-left: 90px;
+}
+#list li:nth-of-type(8) input{
+	width: 160px;
+	height: 40px;
+	
+}
+#list li:nth-of-type(8) div{
+	width: 120px;
+	height: 70px;
+	float: left;
+	font-size: 12px;
+	color: #585858;
+	margin-left: 10px;
+	line-height: 26px;
+}
+#list li:nth-of-type(8) div a{
+	color: #0658B4;
+}
+#list li:nth-of-type(8) div span{
+	width: 102px;
+	height:37px;
+	display: block;
+	line-height: 37px;
+	text-align: center;
+	border: 1px solid #000;
+	font-size: 30px;
+	font-weight: 900;
+	color: #C696AE;
+}

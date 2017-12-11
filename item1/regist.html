@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>会员注册</title>
+		<link rel="stylesheet" href="css/headandfoot.css" />
+		<link rel="stylesheet" href="css/regist.css" />
+	</head>
+	<body>
+		<div class="topbox">
+			<p>
+				<b>您好，欢迎光临美心西饼</b>
+				<span><a href="login.html" id="login">登录</a><a href="regist.html" id="regist">注册</a></span>
+				<b>微信商城<img src="images/index/jiantou_03.png"/></b>
+			</p>
+			<p>
+				<a href="#">订单查询</a>
+				<a href="#">客服中心</a>
+				<a href="#">分享到：</a>
+				<a href="#">切换繁体</a>
+			</p>
+		</div>
+	
+		<div class="header">
+			<img src="images/index/logo.png" />
+			<form>
+				<input type="text"  id="txt"/><button id="search">搜索</button>
+			</form>
+			<a href="shop.html"><span>购物车<em>0</em>件</span></a>
+		</div>
+	
+		<div class="nav-bg">
+			<ul class="nav">
+				<li><a href="index.html"><span>首页</span><b>mei-xin</b></a></li>
+				<li><a href="#"><span>蛋糕直送</span><b>EXPRESS</b></a></li>
+				<li><a href="list.html"><span>蛋糕店取</span><b>SELF PICKUP</b></a></li>
+				<li><a href="#"><span>零食礼盒</span><b>GIFT</b></a></li>
+				<li><a href="#"><span>美粉专场</span><b>MEMBERONLY</b></a></li>
+				<li><a href="#"><span>企业试吃</span><b>TASTING </b></a></li>
+			</ul>
+		</div>
+		
+		<div class="content-bg">
+			<ul id="list">
+				<li>
+					<p><label for="username">用户名</label><input type="text" id="username"/></p><b class="result1">手机号码</b><b class="result2">用户名只能用手机号注册</b><b class="result3">验证通过</b>
+				</li>
+				<li>
+					<p><label for="password">密码</label><input type="password" id="password"/></p><b class="result1">6-20位字符，可由英文数字标点符号组成</b><b class="result2">密码需由6-20位字符</b><b class="result3">密码可用</b>
+				</li>
+				<li><p>密码安全度</p><span class="active">弱</span>
+				<span>中</span>
+				<span>强</span></li>
+				<li>
+					<p><label for="password1">确认密码</label><input type="password" id="password1"/></p><b class="result1">请再次输入密码</b><b class="result2">两次输入不一致</b><b class="result3">密码输入正确</b>
+				</li>
+				<li>
+					<label>性别(选填)</label><p><input type="radio" name="sex" checked="checked"/><em>男</em></p><p><input type="radio" name="sex" /><em>女</em></p>
+				</li>
+				<li>
+					<label>出生年月(选填)</label>
+					<p>
+						<select id="ddlYear" >
+                            <option value="0">请选择年份</option>
+                            <option value="2017">2017年</option>
+                            <option value="2016">2016年</option>
+                            <option value="2015">2015年</option>
+                            <option value="2014">2014年</option>
+                            <option value="2013">2013年</option>
+                            <option value="2012">2012年</option>
+                            <option value="2011">2011年</option>
+                            <option value="2010">2010年</option>
+                            <option value="2009">2009年</option>
+                            <option value="2008">2008年</option>
+                            <option value="2007">2007年</option>
+                            <option value="2006">2006年</option>
+                            <option value="2005">2005年</option>
+                            <option value="2004">2004年</option>
+                            <option value="2003">2003年</option>
+                            <option value="2002">2002年</option>
+                            <option value="2001">2001年</option>
+                            <option value="2000">2000年</option>
+                            <option value="1999">1999年</option>
+                            <option value="1998">1998年</option>
+                            <option value="1997">1997年</option>
+                            <option value="1996">1996年</option>
+                            <option value="1995">1995年</option>
+                            <option value="1994">1994年</option>
+                            <option value="1993">1993年</option>
+                            <option value="1992">1992年</option>
+                            <option value="1991">1991年</option>
+                            <option value="1990">1990年</option>
+                            <option value="1989">1989年</option>
+                            <option value="1988">1988年</option>
+                            <option value="1987">1987年</option>
+                            <option value="1986">1986年</option>
+                            <option value="1985">1985年</option>
+                            <option value="1984">1984年</option>
+                            <option value="1983">1983年</option>
+                            <option value="1982">1982年</option>
+                            <option value="1981">1981年</option>
+                            <option value="1980">1980年</option>
+                            <option value="1979">1979年</option>
+                            <option value="1978">1978年</option>
+                            <option value="1977">1977年</option>
+                            <option value="1976">1976年</option>
+                            <option value="1975">1975年</option>
+                            <option value="1974">1974年</option>
+                            <option value="1973">1973年</option>
+                            <option value="1972">1972年</option>
+                            <option value="1971">1971年</option>
+                            <option value="1970">1970年</option>
+                            <option value="1969">1969年</option>
+                            <option value="1968">1968年</option>
+                            <option value="1967">1967年</option>
+                            <option value="1966">1966年</option>
+                            <option value="1965">1965年</option>
+                            <option value="1964">1964年</option>
+                            <option value="1963">1963年</option>
+                            <option value="1962">1962年</option>
+                            <option value="1961">1961年</option>
+                            <option value="1960">1960年</option>
+                            <option value="1959">1959年</option>
+                            <option value="1958">1958年</option>
+                            <option value="1957">1957年</option>
+                            <option value="1956">1956年</option>
+                            <option value="1955">1955年</option>
+                            <option value="1954">1954年</option>
+                            <option value="1953">1953年</option>
+                            <option value="1952">1952年</option>
+                            <option value="1951">1951年</option>
+                            <option value="1950">1950年</option>
+                            <option value="1949">1949年</option>
+                            <option value="1948">1948年</option>
+                            <option value="1947">1947年</option>
+                            <option value="1946">1946年</option>
+                            <option value="1945">1945年</option>
+                            <option value="1944">1944年</option>
+                            <option value="1943">1943年</option>
+                            <option value="1942">1942年</option>
+                            <option value="1941">1941年</option>
+                            <option value="1940">1940年</option>
+                            <option value="1939">1939年</option>
+                            <option value="1938">1938年</option>
+                            <option value="1937">1937年</option>
+                            <option value="1936">1936年</option>
+                            <option value="1935">1935年</option>
+                            <option value="1934">1934年</option>
+                            <option value="1933">1933年</option>
+                            <option value="1932">1932年</option>
+                            <option value="1931">1931年</option>
+                            <option value="1930">1930年</option>
+                            <option value="1929">1929年</option>
+                            <option value="1928">1928年</option>
+                            <option value="1927">1927年</option>
+                            <option value="1926">1926年</option>
+                            <option value="1925">1925年</option>
+                            <option value="1924">1924年</option>
+                            <option value="1923">1923年</option>
+                            <option value="1922">1922年</option>
+                            <option value="1921">1921年</option>
+                            <option value="1920">1920年</option>
+                            <option value="1919">1919年</option>
+                            <option value="1918">1918年</option>
+                            <option value="1917">1917年</option>
+                            <option value="1916">1916年</option>
+                            <option value="1915">1915年</option>
+                            <option value="1914">1914年</option>
+                            <option value="1913">1913年</option>
+                            <option value="1912">1912年</option>
+                            <option value="1911">1911年</option>
+                            <option value="1910">1910年</option>
+                            <option value="1909">1909年</option>
+                            <option value="1908">1908年</option>
+                            <option value="1907">1907年</option>
+                            <option value="1906">1906年</option>
+                            <option value="1905">1905年</option>
+                            <option value="1904">1904年</option>
+                            <option value="1903">1903年</option>
+                            <option value="1902">1902年</option>
+                            <option value="1901">1901年</option>
+                            <option value="1900">1900年</option>
+                            <option value="1899">1899年</option>
+                            <option value="1898">1898年</option>
+                            <option value="1897">1897年</option>
+						</select>
+						
+						<select id="ddlMonth" >
+                            <option value="0">请选择月份</option>
+                            <option value="01">01月</option>
+                            <option value="02">02月</option>
+                            <option value="03">03月</option>
+                            <option value="04">04月</option><
+                            option value="05">05月</option>
+                            <option value="06">06月</option>
+                            <option value="07">07月</option>
+                            <option value="08">08月</option>
+                            <option value="09">09月</option>
+                            <option value="10">10月</option>
+                            <option value="11">11月</option>
+                            <option value="12">12月</option>
+						</select>
+					</p>
+				</li>
+				<li>
+					<p><label for="email">邮箱(选填)</label><input type="text" id="email"/></p><b class="result1">选填，方便找回密码接受订单等</b><b class="result2">邮箱格式不正确</b><b class="result3">邮箱正确</b>
+				</li>
+				<li>
+					<p><label for="code">图形验证码</label><input type="text" id="codevalue"/></p>
+					<div><span id="code"></span><em>看不清？</em><a href="##" id="change">换一张</a></div><b class="result1">请输入图片中的字符</b><b class="result2">验证码错误</b><b class="result3">验证码输入正确</b>
+				</li>
+				<li>
+					<input type="checkbox" checked="checked" id="check"/><em>我已阅读</em><a href="#">用户注册协议</a>
+				</li>
+				<li>
+					<button id="regist">立即注册</button>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="footer-line">
+		</div>
+		<div class="footer-bg">
+			<div class="footer">
+				<ul>
+					<li>
+						<h4>购物</h4>
+						<p>七天无理由退货及消费者保护规则</p>
+						<p>订饼须知</p>
+						<p>分店地址</p>
+					</li>
+					<li>
+						<h4>服务</h4>
+						<p>2017美心月饼防伪说明</p>
+						<p>西饼券延期公告</p>
+						<p>关于我们</p>
+						<p>预付卡章程</p>
+					</li>
+					<li>
+						<h4>声明</h4>
+						<p>使用条款</p>
+						<p>隐私政策</p>
+					</li>
+					<li>
+						<h4>服务热线</h4>
+						<p>
+	400-8822-280</p>
+					</li>
+				</ul>
+			
+				<div>
+					<p>关注公众号</p><img src="images/index/gzh.jpg" alt="" />
+				</div>
+				<div>
+					<p>手机商城</p><img src="images/index/shop.png" alt="" />
+				</div>
+			</div>
+		</div>
+	
+		<div class="copyright-bg">
+			<div class="copyright">
+				<p>
+					<img src="images/index/ga.png"/><a href="#">广州工商</a><span> |  粤ICP备16089580号  |  </span><a href="#">食品生产许可证 | </a><a href="#">营业执照</a>
+				</p>
+				<p><span>美心食品（广州）有限公司. 保留一切权利</span></p>
+				<p><img src="images/index/2.gif" alt="" /></p>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/pool.js"></script>
+<script src="js/regist.js"></script>

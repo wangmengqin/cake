@@ -1,0 +1,344 @@
+.content-bg{
+	width: 100%;
+	background: url(../images/index/index-bg.jpg);
+}
+
+.content{
+	width: 995px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.information{
+	background: #fff;
+	margin-top: 9px;
+	overflow: hidden;
+}
+.information>p{
+	line-height: 50px;
+	font-size: 12px;
+}
+.information p a{
+	color: #666666;
+}
+
+.info-bottom{
+	overflow:hidden;
+	position:relative;
+	padding-bottom: 40px;
+}
+.left-box{
+	float: left;
+	width: 410px;
+	overflow: hidden;
+}
+
+.small {
+	border: 1px solid #fff;
+}
+.small:hover {
+	border-color: #000;
+}
+#box{
+	position: relative;
+	width: 400px;
+	height: 400px;
+}
+#filter{
+	width: 200px;
+	height: 200px;
+	background: #000;
+	opacity: .4;
+	position: absolute;
+	display: none;
+}
+#max{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	position: absolute;
+	left: 420px;
+	top: 0;
+	display: none;
+}
+#max img{position: absolute;left:0;top:0;}
+#small-box{
+	width: 430px;
+}
+
+.left-box p{
+	overflow:hidden;
+}
+.left-box p span{
+	float: left;
+}
+.left-box p span:first-of-type{
+	background: url(../images/detail/share_03.png)no-repeat left center;
+	padding-left: 15px;
+}
+.left-box p span:last-of-type{
+	background: url(../images/detail/share_05.png) no-repeat left center;
+	padding-left: 15px;
+}
+.left-box p i{
+	float: left;
+	width: 20px;
+	height: 16px;
+	background: url(../images/detail/jiathis_ico.png) no-repeat;
+	margin-top: 4px;
+}
+.left-box p i:nth-of-type(1){
+	background-position:  0 -1809px;
+}
+.left-box p i:nth-of-type(2){
+	background-position:  0 -96px;
+}
+.left-box p i:nth-of-type(3){
+	background-position:  0 -64px;
+	margin-right: 33px;
+}
+
+.right-box{
+	width: 530px;
+	float: right;
+	overflow: hidden;
+	padding-right: 25px;
+}
+.right-box h3{
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+
+.right-box h3 span{
+	float: left;
+	width: 36px;
+	height: 22px;
+	background: #ff0000;
+	color: #fff;
+	text-align: center;
+	line-height: 22px;
+	margin-right: 5px;
+}
+.right-box li{
+	font-size: 11px;
+	overflow: hidden;
+	color: #585858;
+	margin: 12px 0;
+	padding-left: 15px;
+}
+.right-box li:first-of-type{
+	color: #bfbfbf;
+	padding-left: 0px;
+}
+.right-box li:nth-of-type(2){
+	background: #e9e9ea;
+	
+
+	padding: 15px 0 20px 20px;
+}
+.right-box li:nth-of-type(2) p:first-of-type{
+	line-height: 21px;
+}
+.right-box li:nth-of-type(2) p:first-of-type span{
+	text-decoration: line-through;
+}
+.right-box li:nth-of-type(2) p:last-of-type{
+	line-height: 46px;
+}
+.right-box li:nth-of-type(2) p:last-of-type span{
+	color: #fc5417;
+	font-size: 25px;
+}
+.right-box li label{
+	width: 66px;
+	float: left;
+}
+.right-box li:nth-of-type(4) {
+	line-height: 36px;
+}
+.right-box li:nth-of-type(4) span{
+	padding: 0 10px;
+	height: 34px;
+	float: left;
+	border: 1px solid #e1e1e1;
+	line-height: 34px;
+	text-align: center;
+} 
+.right-box li:nth-of-type(5) {
+	line-height: 36px;
+}
+.right-box li:nth-of-type(5) span{
+	padding: 0 10px;
+	height: 34px;
+	float: left;
+	border: 1px solid #e1e1e1;
+	line-height: 34px;
+	text-align: center;
+} 
+
+.right-box li:nth-of-type(6),.right-box li:nth-of-type(7){
+	color: #ff2d2e;
+}
+.right-box li:nth-of-type(8){
+	line-height: 40px;
+}
+.right-box li:nth-of-type(8) input{
+	width: 74px;
+	height: 38px;
+	border:0;
+	border: 1px solid #e1e1e1;
+	line-height: 38px;
+	text-align: center;
+	float: left;
+}
+.right-box li:nth-of-type(8) p{
+	float: left;
+	width: 18px;
+	margin-left: 5px;
+}
+.right-box li:nth-of-type(8) p i:first-of-type{
+	float: left;
+	width: 18px;
+	height: 18px;
+	background: url(../images/detail/pro_icon_26.png);
+}
+.right-box li:nth-of-type(8) p i:last-of-type{
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin-top: 4px;
+	background: url(../images/detail/pro_icon_29.png);
+}
+
+.right-box li:nth-of-type(9){
+	line-height: 60px;
+}
+.right-box li:nth-of-type(9) textarea{
+	float: left;
+	width: 429px;
+	height:59px;
+	line-height: 59px;
+	border:0;
+	border: 1px solid #e1e1e1;
+}
+.right-box li:nth-of-type(10){
+	line-height: 40px;
+}
+
+.right-box li:nth-of-type(11){
+	color: #ff0000;
+	line-height: 40px;
+}
+.right-box li:nth-of-type(12){
+	color: #000;
+	line-height: 50px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.right-box li:last-of-type a{
+	float: left;
+	width: 196px;
+	height: 36px;
+	border:1px solid  #e16300;
+	font-size: 16px;
+	line-height: 36px;
+	text-align: center;
+}
+.right-box li:last-of-type a:first-of-type{
+	color: #E16300;
+	margin-left: 5px;
+}
+.right-box li:last-of-type a:last-of-type{
+	color: #fff;
+	background: #E16300;
+	margin-left: 15px;
+}
+
+.detail-info{
+	width: 995px;
+	overflow: hidden;
+	background: #fff;
+	padding-bottom: 40px;
+	
+}
+.detail-info h4{
+	line-height: 40px;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+	margin-bottom: 40px;
+}
+.detail-info h4 p{
+	width: 130px;
+	height: 39px;
+	border-left: 1px solid #e16300;
+	border-right: 1px solid #e16300;
+	border-top: 2px solid #e16300;
+	color:#e16300 ;
+	background: url(../images/detail/xiasanjiao.png) no-repeat center top;
+	text-align: center;
+	line-height: 39px;
+}
+.detail-info img{
+	    width: 100%;
+}
+
+.recommend{
+	width:995px;
+	background: #fff;
+	overflow: hidden;
+	border: 1px solid #eeeeee;
+	margin-bottom: 20px;
+}
+.recommend h3{
+	line-height: 40px;
+	font-size: 16px;
+	padding-left: 15px;
+}
+.recommend ul{
+	padding: 10px 0 12px 8px;
+	overflow: hidden;
+}
+.recommend ul li{
+	float: left;
+	margin: 0 18px;
+	text-align: center;
+	width: 160px;
+	font-size: 12px;
+}
+.recommend ul li span{
+	    padding: 0 7px;
+    margin-right: 3px;
+	width: 35px;
+	height: 17px;
+	background: #ff0000;
+	line-height: 17px;
+	text-align: center;
+	color: #fff;
+	font-size: 11px;
+	
+}
+
+.recommend ul li p:nth-of-type(1){
+	margin-top: 10px;
+	height: 36px;
+	color: #686868;
+	
+}
+.recommend ul li p{
+	color: #ff5417;
+	line-height: 18px;
+}
+
+.tips{
+	width: 200px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 14px;
+	background: #ccc;
+	color: #FE5722;
+	font-weight: 900;
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+}
